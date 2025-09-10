@@ -6,6 +6,17 @@
 
 **Note:** This software modifications may not work correctly. Also, copy and republishing of this software assets is inhibited. 
 
+## Requirements
+
+- [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.5 or later (tested with v3.5)
+- This code example uses [TRAVEO&trade; T2G Virtual Display Tool](https://softwaretools-preview.icp.infineon.com/tools/com.ifx.tb.tool.traveot2gvirtualdisplaytool) to output image. This Tool is available only on Windows.
+- This code example creation is required to configure Qt Design Studio in advance. See the [Steps to use the Qt Design Studio using the ModusToolbox&trade; ](https://www.infineon.com/assets/row/public/documents/10/56/infineon-steps-to-use-the-qt-design-studio-using-the-modustoolbox-training-en.pdf) for how to configure Qt Design Studio.
+
+
+## Supported toolchains (make variable 'TOOLCHAIN')
+
+- GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) – Default value of `TOOLCHAIN`
+
 ## Device
 
 The device used in this demonstration is:
@@ -52,9 +63,9 @@ In this demonstration, user can design image by Qt Design Studio and display ima
 
 More details can be found in:
 - TRAVEO&trade; T2G CYT4DN
-    - [Technical Reference Manual (TRM)](https://documentation.infineon.com/traveo/docs/mch1706536194727)
-    - [Registers TRM](https://documentation.infineon.com/traveo/docs/mch1706536194727)
-    - [Data Sheet](https://documentation.infineon.com/traveo/docs/jbh1706536144484)
+    - [Technical Reference Manual (TRM)](https://www.infineon.com/products/microcontroller/32-bit-traveo-t2g-arm-cortex/for-cluster/t2g-cyt4dn#documents)
+    - [Registers TRM](https://www.infineon.com/products/microcontroller/32-bit-traveo-t2g-arm-cortex/for-cluster/t2g-cyt4dn#documents)
+    - [Data Sheet](https://www.infineon.com/products/microcontroller/32-bit-traveo-t2g-arm-cortex/for-cluster/t2g-cyt4dn#documents)
 
 ## Hardware setup
 
@@ -95,7 +106,7 @@ refer to [Steps to use the Qt Design Studio using the ModusToolbox&trade; ](http
 
 Relevant Application notes are:
 
-- [AN235305](https://www.infineon.com/gated/infineon-an235305-getting-started-with-traveo-t2g-family-mcus-in-modustoolbox-applicationnotes-en_ef8d5799-c199-4f23-83a2-4fd63183071f) - Getting started with TRAVEO&trade; T2G family MCUs in ModusToolbox&trade;
+- [AN235305](https://www.infineon.com/assets/row/public/documents/10/42/infineon-an235305-getting-started-with-traveo-t2g-family-mcus-in-modustoolbox-applicationnotes-en.pdf) - Getting started with TRAVEO&trade; T2G family MCUs in ModusToolbox&trade;
 
 
 ModusToolbox&trade; is available online:
